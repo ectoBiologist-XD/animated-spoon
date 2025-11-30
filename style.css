@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+.parent {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contents {
+    width: 100%;
+    height: 110%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contents_1 {
+    width: 48%;
+    height: 100%;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.pfp {
+    width: 100%;
+    height: 29%;
+    border: 2px solid whitesmoke;
+    background-image: url(images/e554373e100a4ac83d54efe81ba1df07.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.janks {
+    width: 100%;
+    height: 23%;
+    margin-top: 14px;
+    display: flex;
+    flex-direction: column;
+}
+
+.top_janks {
+    width: 100%;
+    height: 21%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom_janks {
+    width: 100%;
+    height: 79%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner_ig {
+    width: 100%;
+    height: 8%;
+    margin-top: 14px;
+    background-image: url(images/bb4a0b445cb7cc42cd608255e71d661c.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+/* the tables */
+.tables_1 {
+    margin-top: 14px;
+    width: 99%;
+    height: 7%;
+    border: 2px solid #D4D4D4;
+}
+
+.tables_2 {
+    margin-top: 11px;
+    width: 99%;
+    height: 7%;
+    border: 2px solid #D4D4D4;
+}
+
+.tables_3 {
+    margin-top: 11px;
+    width: 99%;
+    height: 7%;
+    border: 2px solid #D4D4D4;
+}
+
+/* .contents_2 {
+    background-color: rgb(104, 104, 29);
+    width: 48%;
+    height: 100%;
+} */
+.contents_2 {
+    width: 48%;
+    height: 100%;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.basic_info{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.name{
+    font-size: larger;
+    width: 100%;
+    height: 33.3%;
+    display: flex;
+    justify-content: flex-start;
+}
+.info_again{
+    width: 100%;
+    height: 33.3%;
+    font-size: small;
+}
+.idk{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 33.3%;
+}
+.idk img {
+    width: 45px;
+    height: 45px;
+}
+table{
+    margin-top: 14px;
+    border-collapse: collapse;
+}
+table th{
+    align-items: center;
+    padding: 4px;
+}
+td{
+    padding: 7px;
+}
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #D4D4D4;
+    width: 100%;
+    height: 48px;
+}
